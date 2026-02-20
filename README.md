@@ -1,6 +1,6 @@
 # Bowling
 
-**TODO: Add description**
+**J. Mariano Cariño 19/02/26**
 
 ## Installation
 
