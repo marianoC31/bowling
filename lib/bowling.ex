@@ -1,5 +1,6 @@
 defmodule Bowling do
   def score([]), do: 0
+  """
   def score([[10,10,extra]|others]) do
       10 + 10 + extra + score(others)
   end
@@ -14,5 +15,7 @@ defmodule Bowling do
 
   end
   def score([[f,s|_]|others]) when f + s == 10, do: f+ s +  hd(hd(others)) + score(others)
+  """
   def score([[f,s|_]|others]), do:  f + s + score(others)
+
 end
